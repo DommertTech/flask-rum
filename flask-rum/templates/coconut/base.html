@@ -1,0 +1,14 @@
+{# Flask-Rum [Version 0.10.0]
+  Theme: Coconut Base Template #}
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <title>{% block title %} {{ title }} {% endblock %}</title>
+    {% block head %} {% include 'rum/head.html' %} {% endblock %}
+    {% block rum_head %} {% endblock %}
+  </head>
+
+  <body>
+    {% block body %} {% endblock %}
+  </body>
+</HTML>

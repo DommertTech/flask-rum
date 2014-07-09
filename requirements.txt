@@ -1,0 +1,10 @@
+Flask==0.8
+Jinja2==2.6
+MarkupSafe==0.15
+Werkzeug==0.8.1
+argparse==1.2.1
+## FIXME: could not find svn URL in dependency_links for this package:
+distribute==0.6.24dev-r0
+pyOpenSSL==0.12
+virtualenv==1.11.4
+wsgiref==0.1.2

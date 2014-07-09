@@ -1,0 +1,4 @@
+Versions
+--------------------
+jQuery.js: JavaScript Library v2.1.0
+jQuery.cookie.js: jQuery Cookie Plugin v1.4.0
