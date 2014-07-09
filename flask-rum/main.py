@@ -7,19 +7,15 @@ app.debug = True
 
 
 @app.route('/')
-def hello_world(title='Hello World'):
-    return render_template('rum/default.html', title=title, rum = rum)
+def frontpage(title='Hello World'):
+    return render_template('site/frontpage.html', title=title, rum = rum)
 
 @app.route('/about/')
 def about(title='About Us'):
     return render_template('site/about.html', title=title, rum = rum)
 
-@app.route('/two/')
-def two_column(title='404 Error!'):
-    return render_template(rum['theme']+'twotest.html', title=title, float="left;", rum = rum)
-
 @app.route('/<path:path>')
-def catch_all(path, title='Catch All'):
+def catch_all(path, title='404 Error!'):
     return render_template('site/404.html', title=title, path=path, rum = rum)
 
 if __name__ == '__main__':
