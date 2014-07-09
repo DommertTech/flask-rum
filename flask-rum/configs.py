@@ -1,6 +1,6 @@
-# Flask-Rum Configs v 0.10
+# Flask-Rum [Version 0.10.0]
 rum = {}
-rum['theme'] = 'rum/' # Theme (folder/)
+rum['theme'] = 'coconut/' # Theme (folder/)
 rum['title'] = 'Flask-Rum'
 rum['admin'] = 'Admin'
 rum['admin_email'] = 'Admin@Domain.com'

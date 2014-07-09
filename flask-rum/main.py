@@ -14,21 +14,13 @@ def hello_world(title='Hello World'):
 def about(title='About Us'):
     return render_template('site/about.html', title=title, rum = rum)
 
-@app.route('/testing/')
-def testing(title='Test Page'):
-    return render_template(rum['theme']+'testing.html', title=title, rum = rum)
-
-@app.route('/one/')
-def one_column(title='Test Page'):
-    return render_template(rum['theme']+'onetest.html', title=title, rum = rum)
-
 @app.route('/two/')
-def two_column(title='Test Page'):
+def two_column(title='404 Error!'):
     return render_template(rum['theme']+'twotest.html', title=title, float="left;", rum = rum)
 
 @app.route('/<path:path>')
 def catch_all(path, title='Catch All'):
-    return render_template(rum['theme']+'about.html', title=title, path=path, rum = rum)
+    return render_template('site/404.html', title=title, path=path, rum = rum)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
