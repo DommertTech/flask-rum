@@ -1,6 +1,7 @@
 {# Flask-Rum [Version 0.10.1] #}
 
-{% extends 'rum/twocol.html' %}
+{% extends rum['theme']+'twocol.html' %}
+
 
 {% block rum_nav %}
     <P> This is the header section/ nav bar</P>
@@ -9,11 +10,11 @@
 
 {% block rum_content %}
    <P> Content section with stuff </P>
-{% endblock %}
+{% endblock rum_content %}
 
 {% block rum_sidebar %}
     <UL>
         <LI>List</LI>
         <LI>LIST</LI>
     </UL>
-{% endblock %}
+{% endblock rum_sidebar %}

@@ -40,7 +40,7 @@ Have Python and VirtualEnv installed before this:
 * static/js (all your Javascript libraries)
 * static/rum/css (All of rums CSS files)
 
-#### Rum Blocks Templates
+#### Rum Blocks
 These are the main block sections that make up Rum Templates. If you need help with Template look at Jinja2 Documentation.
 * Title
 * Rum_Head : Where you can add any extra CSS, JS, and Meta Data
