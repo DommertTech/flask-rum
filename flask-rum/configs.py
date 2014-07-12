@@ -1,4 +1,4 @@
-# Flask-Rum [Version 0.10.0]
+# Flask-Rum [Version 0.10.1]
 rum = {}
 rum['theme'] = 'coconut/' # Theme (folder/)
 rum['title'] = 'Flask-Rum'
