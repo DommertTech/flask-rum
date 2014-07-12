@@ -5,9 +5,10 @@ Flask-Rum [Version 0.10.1]
 *Updated:* July 2014
 
 
-Fill your Flask app with Rum!!
+**Fill your Flask app with Rum!!**
 
-Flask-Rum is a templating &amp; theme system built on top of Flask with Foundation and JQuery.
+Flask-Rum is a templating &amp; theme system built on top of Flask with Foundation and JQuery. Its a great starting point for any flask project.
+
 
 Documentation & Website links will come soon.
 
@@ -24,4 +25,25 @@ Have Python and VirtualEnv installed before this:
 
 
 ## Documentation
+
+#### File Structure
+* Main.py (of course the main file to run)
+* Configs.py (your site configs and setups)
+* templates/rum/
+** Base.html (the base layout that everything is built upon)
+** Main.html (expands off the base, and is the main setup for body and things)
+** OneCol.html (expands off Main, setup with main content area)
+** TwoCol.html (expands off Main, has content area and sidebar)
+** Frontpage.html (expands off Main, your frontpage layout design)
+* templates/site (this is where you route your site content and themes)
+* templates/coconut (a demo theme and a spice of coconut flavor to your Rum)
+* static/js (all your Javascript libraries)
+* static/rum/css (All of rums CSS files)
+
+#### Info
+
+
+
+
+
 
