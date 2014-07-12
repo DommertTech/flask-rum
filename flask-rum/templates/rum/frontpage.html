@@ -1,13 +1,12 @@
 {# Flask-Rum [Version 0.10.0]
- Theme: Coconut - One Column Template #}
+ Frontpage Template #}
 
 {% extends 'rum/main.html' %}
 
 {% block header %}
 <div class="row" id="rum_header">
     {% block rum_header %}
-   {% block rum_nav %} {% endblock %}
- {% include 'coconut/hero.html' %}
+        {% block rum_nav %} {% endblock %}
     {% endblock rum_header %}
 </div>
 {% endblock header %}
@@ -23,6 +22,7 @@
 {% block footer %}
 <div class="row" id="rum_footer">
         {% block rum_footer %} {% endblock %}
+
 </div>
 {% endblock footer %}
 
