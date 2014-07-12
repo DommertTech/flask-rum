@@ -29,18 +29,28 @@ Have Python and VirtualEnv installed before this:
 #### File Structure
 * Main.py (of course the main file to run)
 * Configs.py (your site configs and setups)
-* templates/rum/
-** Base.html (the base layout that everything is built upon)
-** Main.html (expands off the base, and is the main setup for body and things)
-** OneCol.html (expands off Main, setup with main content area)
-** TwoCol.html (expands off Main, has content area and sidebar)
-** Frontpage.html (expands off Main, your frontpage layout design)
-* templates/site (this is where you route your site content and themes)
+* templates/site (this is where you route your site pages and content)
+* templates/rum/ (main layouts to expand upon)
+    * Base.html (the base layout that everything is built upon)
+    * Main.html (expands off the base, and is the main setup for body and things)
+    * OneCol.html (expands off Main, setup with main content area)
+    * TwoCol.html (expands off Main, has content area and sidebar)
+    * Frontpage.html (expands off Main, your frontpage layout design)
 * templates/coconut (a demo theme and a spice of coconut flavor to your Rum)
 * static/js (all your Javascript libraries)
 * static/rum/css (All of rums CSS files)
 
-#### Info
+#### Rum Blocks Templates
+These are the main block sections that make up Rum Templates. If you need help with Template look at Jinja2 Documentation.
+* Title
+* Rum_Head : Where you can add any extra CSS, JS, and Meta Data
+* Rum_Header : The Top Section of Page
+* Rum_Nav : Main Navigation Section
+* Rum_Middle: Middle Section of Page
+* Rum_Content : Main content section
+* Rum_Sidebar : Sidebar for two/three columns
+* Rum_Footer : Main footer section
+
 
 
 
