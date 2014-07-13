@@ -14,6 +14,10 @@ def frontpage(title='Hello World'):
 def about(title='About Us'):
     return render_template('site/about.html', title=title, rum = rum)
 
+@app.route('/info/')
+def info(title='Info Page'):
+    return render_template('site/info.html', title=title, rum = rum)
+
 @app.route('/<path:path>')
 def catch_all(path, title='404 Error!'):
     return render_template('site/404.html', title=title, path=path, rum = rum)
