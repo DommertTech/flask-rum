@@ -12,21 +12,23 @@
 {% endblock header %}
 
 {% block middle %}
-<div class="row" id="rum_middle">
+<div class="row" id="middle">
 {% block rum_middle %}
-    <div class="medium-4 columns panel" style="float:{{ float }}">
+  <div id="rum_middle">
+    <div class="medium-4 columns panel" style="float:{{ float }}" id="rum_sidebar">
         {% block rum_sidebar %}{% endblock %}
     </div>
-    <div class="medium-8 columns panel">
+    <div class="medium-8 columns panel" id="rum_content">
         {% block rum_content %}{% endblock %}
     </div>
+  </div>
 {% endblock rum_middle %}
 </div>
 {% endblock middle %}
 
 {% block footer %}
-<div class="row">
-    <div class="medium-12 columns"> {% block rum_footer %}{% endblock %} </div>
+<div class="row" id="footer">
+   <div class="medium-12 columns" id="rum_footer"> {% block rum_footer %}{% endblock %} </div>
 </div>
 {% endblock footer %}
 

@@ -13,16 +13,15 @@ One Column Template #}
 
 {% block middle %}
 <div class="row" id="rum_middle">
-    {% block rum_middle %}
-        {% block rum_content %} {% endblock %}
-    {% endblock rum_middle %}
+ {% block rum_middle %}
+   <div id="rum_content">{% block rum_content %} {% endblock %}</div>
+ {% endblock rum_middle %}
 </div>
 {% endblock middle %}
 
 {% block footer %}
 <div class="row" id="rum_footer">
-        {% block rum_footer %} {% endblock %}
-
+  {% block rum_footer %} {% endblock %}
 </div>
 {% endblock footer %}
 
