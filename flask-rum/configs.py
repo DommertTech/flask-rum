@@ -5,5 +5,5 @@ rum['title'] = 'Flask-Rum'
 rum['admin'] = 'Admin'
 rum['admin_email'] = 'Admin@Domain.com'
 
-rum['nav'] = 'site/rum_nav.html'
-rum['footer'] = 'site/rum_footer.html'
+rum['nav'] = 'site/blocks/rum_nav.html'
+rum['footer'] = 'site/blocks/rum_footer.html'
