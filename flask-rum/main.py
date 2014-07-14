@@ -7,7 +7,7 @@ app.debug = True
 
 
 @app.route('/')
-def frontpage(title='Hello World'):
+def frontpage(title='Home '+rum['title']):
     return render_template('site/frontpage.html', title=title, rum = rum)
 
 @app.route('/about/')
@@ -19,7 +19,7 @@ def info(title='Info Page'):
     return render_template('site/info.html', title=title, rum = rum)
 
 @app.route('/<path:path>')
-def catch_all(path, title='404 Error!'):
+def catch_all(path, title='404 Error! '+rum['title']):
     return render_template('site/404.html', title=title, path=path, rum = rum)
 
 if __name__ == '__main__':
