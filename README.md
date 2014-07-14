@@ -22,6 +22,7 @@ Have Python and VirtualEnv installed before this:
     pip install -r requirements.txt
     python flask-rum/main.py
     open http://0.0.0.0:5000/
+    or http://localhost:5000/
 
 
 ## Documentation
