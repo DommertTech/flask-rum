@@ -31,6 +31,7 @@ Have Python and VirtualEnv installed before this:
 * Main.py (of course the main file to run)
 * Configs.py (your site configs and setups)
 * templates/site (this is where you route your site pages and content)
+    * blocks (for main block routers example: rum_header, rum_nav, rum_footer)
 * templates/rum/ (main layouts to expand upon)
     * Base.html (the base layout that everything is built upon)
     * Main.html (expands off the base, and is the main setup for body and things)
