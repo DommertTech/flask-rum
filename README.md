@@ -44,13 +44,19 @@ Have Python and VirtualEnv installed before this:
 
 #### Rum Blocks
 These are the main block sections that make up Rum Templates. If you need help with Template look at Jinja2 Documentation.
+Each template requires Rum_Nav and Rum_Content
+    * <head>
 * Title
 * Rum_Head : Where you can add any extra CSS, JS, and Meta Data
+    * <body>
+    * <header>
 * Rum_Header : The Top Section of Page
 * Rum_Nav : Main Navigation Section
+    * <section id='middle'>
 * Rum_Middle: Middle Section of Page
 * Rum_Content : Main content section
 * Rum_Sidebar : Sidebar for two/three columns
+    * <footer>
 * Rum_Footer : Main footer section
 
 
