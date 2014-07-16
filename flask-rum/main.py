@@ -1,4 +1,4 @@
-# Dommert's Flask-Rum [Version 0.10.1]
+# Dommert's Flask-Rum [Version 0.1.1]
 # Fill your Flask with Rum!
 from flask import Flask, render_template
 from configs import *

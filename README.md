@@ -1,4 +1,4 @@
-Flask-Rum [Version 0.10.1]
+Flask-Rum [Version 0.1.1]
 ==============
 *Author:* Dommert [Dommert@Gmail.com]
 *Published:* July 2014
