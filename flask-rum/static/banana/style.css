@@ -67,9 +67,33 @@ body {
     color: black !important;
 }
 
+.top-bar-section .has-form  {
+    background: #fff;
+    color: black;
+}
+
+.top-bar-section .dropdown li label
+{
+    background: gray;
+    color: black;
+}
+
+
 .top-bar-section ul li > a {
-    background: #ffffff !important;
+    background-color: #fff !important;
     color: black !important;
+}
+
+.top-bar-section ul li > a.button
+{
+    background-color: #008CBA !important;
+    border-color: #007095;
+    color: white !important;
+}
+
+.top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus, a.button:hover {
+    color: black !important;
+    background-color: #007095 !important;
 }
 
 .contain-to-grid {
