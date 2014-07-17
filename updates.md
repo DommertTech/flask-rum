@@ -1,7 +1,7 @@
 Updates
 ======================
 
-## July 2014
+### July 2014
 * Version 0.1.0
     * Base System
     * Coconut Theme     
