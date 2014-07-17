@@ -7,7 +7,8 @@ Flask-Rum [Version 0.1.1]
 
 ## **Fill your Flask app with Rum!!**
 
-Flask-Rum is a templating &amp; theme system built on top of Flask with Foundation and JQuery. Its a great starting point for any flask project.
+Flask-Rum is a Python Flask framework using Zurb's Foundation, JavaScript, and JQuery. It makes a great starting point for any Flask project. Flask-Rum comes with base templates & themes with custom blocks. 
+
 
 I've started building on the Git-Wiki. Documentation & Website links will come soon.
 
