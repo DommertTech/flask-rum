@@ -1,6 +1,6 @@
 # Flask-Rum [Version 0.1.1]
 rum = {}
-rum['theme'] = 'coconut/' # Theme (folder/)
+rum['theme'] = 'banana/' # Theme (folder/)
 rum['title'] = '[Flask-Rum]'
 rum['admin'] = 'Admin'
 rum['admin_email'] = 'Admin@Domain.com'
