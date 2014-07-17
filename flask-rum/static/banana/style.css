@@ -1,0 +1,100 @@
+body {
+    background: white;
+}
+
+#hero {
+    background-image: url('image/catnip.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 23pt;
+}
+#hero * {
+    color: white;
+}
+
+#the-proof {
+    text-align: center;
+    color: white;
+    background-color: #313232;
+}
+#the-proof * {
+    color: white;
+}
+.featured-sections {
+    text-align: center;
+    padding-top: 5pt;
+}
+.featured-sections img {
+    margin: auto;
+}
+.featured-sections h5 {
+    font-size: 140%;
+}
+
+.featured-section-image {
+    border-radius: 100%;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.featured-sections .columns {
+    padding: 23px;
+}
+
+.has-angry-dad-cat-background {
+    background-image: url('image/angry-dad-cat.jpg');
+}
+.has-weird-cat-background {
+    background-image: url('image/weird-cat-looking-up.jpg');
+}
+.has-tiger-cat-background {
+    background-image: url('image/its-a-tiger-k.jpg');
+}
+.has-background-image-cover {
+    background-size: cover;
+    background-position: center;
+}
+
+.top-bar {
+    background: #fff !important;
+}
+
+.top-bar-section {
+    background: #fff;
+    color: black !important;
+}
+
+.top-bar-section ul li > a {
+    background: #ffffff !important;
+    color: black !important;
+}
+
+.contain-to-grid {
+    background-color: #fff;
+}
+
+.top-bar .name h1 a {
+    color: black !important;
+}
+
+.top-bar * {
+    color: black !important;
+}
+
+.toggle-topbar a {
+    color: black !important;
+}
+
+.top-bar .toggle-topbar.menu-icon a span::after {
+box-shadow: 0 0px 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
+}
+.top-bar .toggle-topbar.menu-icon a:hover span::after {
+box-shadow: 0 0px 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
+}
+
+.top-bar .title-area {
+    background-color: white !important;
+}

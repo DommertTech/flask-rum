@@ -1,0 +1,21 @@
+{# Flask-Rum [Version 0.10.1]
+ Theme: Coconut - Frontpage Template #}
+
+{% extends 'banana/onecol.html' %}
+
+
+{% block middle %}
+   {% include 'banana/front_middle.html' %}
+    <div class="row" id="rum_middle">
+ {% block rum_middle %}
+    {% block rum_content %} {% endblock %}
+ {% endblock rum_middle %}
+</div>
+{% endblock middle %}
+
+{% block footer %}
+<div class="row" id="rum_footer">
+ {% block rum_footer %} {% endblock %}
+</div>
+{% endblock footer %}
+
