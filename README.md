@@ -5,7 +5,7 @@ Flask-Rum [Version 0.1.1]
 *Updated:* July 2014
 
 
-**Fill your Flask app with Rum!!**
+## **Fill your Flask app with Rum!!**
 
 Flask-Rum is a templating &amp; theme system built on top of Flask with Foundation and JQuery. Its a great starting point for any flask project.
 
