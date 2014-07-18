@@ -45,13 +45,18 @@ body {
 }
 
 .has-angry-dad-cat-background {
-    background-image: url('image/angry-dad-cat.jpg');
+/* background-image: url('image/angry-dad-cat.jpg'); */
+background-image: url('http://1.bp.blogspot.com/-13Vz9-HYCck/Uk8qanNrnvI/AAAAAAAAAKc/MbyZFKcGJIA/s1600/Nico+Banana.jpg');
 }
 .has-weird-cat-background {
-    background-image: url('image/weird-cat-looking-up.jpg');
+ /*   background-image: url('image/weird-cat-looking-up.jpg'); */
+ background-image: url('http://www.healthypawspetinsurance.com/blog/wp-content/uploads/Walter_Catnip_Banana_Hug.jpeg');
+
 }
 .has-tiger-cat-background {
-    background-image: url('image/its-a-tiger-k.jpg');
+    /* background-image: url('image/its-a-tiger-k.jpg'); */
+    background-image: url('http://i1.ytimg.com/vi/JeTzsy2IrRM/hqdefault.jpg');
+
 }
 .has-background-image-cover {
     background-size: cover;
