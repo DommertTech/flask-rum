@@ -24,3 +24,4 @@ def catch_all(path, title='404 Error! '+rum['title']):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
+
