@@ -2,7 +2,10 @@
 # Fill your Flask with Rum!
 from flask import Flask, render_template
 import configs as settings
+
+
 app = Flask(__name__)
+app.config.from_object('configs')
 app.debug = True
 
 
