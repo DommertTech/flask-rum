@@ -1,9 +1,9 @@
 {# Flask-Rum [Version 0.1.1] #}
 
-{% extends rum['theme']+'frontpage.html' %}
+{% extends config.THEME_FOLDER+'frontpage.html' %}
 
 {% block rum_nav %}
-   {% include rum['nav'] %}
+   {% include config.TEMPLATE_DEFAULTS['nav'] %}
 {% endblock %}
 
 {% block rum_content %}
@@ -11,5 +11,5 @@
 {% endblock %}
 
 {% block rum_footer %}
-   {% include rum['footer'] %}
+   {% include config.TEMPLATE_DEFAULTS['footer'] %}
 {% endblock %}
