@@ -1,9 +1,9 @@
 {# Flask-Rum [Version 0.1.1] #}
 
-{% extends rum['theme']+'twocol.html' %}
+{% extends config.THEME_FOLDER+'twocol.html' %}
 
 {% block rum_nav %}
-   {% include rum['nav'] %}
+   {% include config.TEMPLATE_DEFAULTS['nav'] %}
 {% endblock %}
 
 {% block rum_content %}
