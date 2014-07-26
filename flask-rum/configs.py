@@ -1,10 +1,12 @@
 # Flask-Rum [Version 0.1.1]
-rum = {}
-rum['theme'] = 'coconut/' # Theme (folder/)
-rum['title'] = '[Flask-Rum]'
-rum['admin'] = 'Admin'
-rum['admin_email'] = 'Admin@Domain.com'
 
-rum['nav'] = 'site/blocks/rum_nav.html'
-rum['footer'] = 'site/blocks/rum_footer.html'
+THEME_FOLDER = 'coconut/'
+PROJECT_TITLE = '[Flask-Rum]'
+ADMINS = [
+    ('Admin', 'Admin@Domain.com')
+]
 
+TEMPLATE_DEFAULTS = {
+    'nav': 'site/blocks/rum_nav.html',
+    'footer': 'site/blocks/rum_footer.html'
+}
