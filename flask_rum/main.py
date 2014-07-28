@@ -7,7 +7,7 @@ import configs as settings
 app = Flask(__name__)
 app.config.from_object('configs')
 
-rum = Blueprint('rum', __name__, template_folder='templates')
+rum = Blueprint('rum', __name__, template_folder='rum_templates', static_folder='rum_static')
 app.register_blueprint(rum)
 
 @rum.route('/')
@@ -26,5 +26,4 @@ def info(title='Info Page'):
 def catch_all(path, title='404 Error! '+settings.PROJECT_TITLE):
     return render_template('site/404.html', title=title, path=path)
 
-if __name__ == '__main__':
-    app.run(host='localhost', port=5000, debug=True)
+
