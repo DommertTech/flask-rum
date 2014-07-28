@@ -10,7 +10,7 @@ app.register_blueprint(rum)
 def fuckyou(title='fuck'):
     return 'Fuck you Cunt'
 
-@app.route('/suckit')
+@rum.route('/suckit')
 def frontpage(title='Home '):
     return render_template('site/frontpage.html', title=title)
 
