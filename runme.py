@@ -10,9 +10,9 @@ app.register_blueprint(rum)
 def fuckyou(title='fuck'):
     return 'Fuck you Cunt'
 
-@rum.route('/suckit')
-def frontpage(title='Home '):
-    return render_template('site/frontpage.html', title=title)
+@app.route('/suckit')
+def suckit(title='Home '):
+    return render_template('site/frontpage2.html', title=title)
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000, debug=True)
