@@ -1,8 +1,9 @@
 # Dommert's Flask-Rum [Version 0.1.1]
-# Fill your Flask with Rum!
+# Dommert@Gmail.com
+# Fill your Flask with Rum!! Aarrgghhh.....
 from flask import Flask, render_template
 from flask import Blueprint
-import configs as settings
+import configs
 
 app = Flask(__name__)
 app.config.from_object('configs')
@@ -11,19 +12,19 @@ rum = Blueprint('rum', __name__, template_folder='rum_templates', static_folder=
 app.register_blueprint(rum)
 
 @rum.route('/')
-def frontpage(title='Home '+settings.PROJECT_TITLE):
+def frontpage(title='Home '+configs.PROJECT_TITLE):
     return render_template('site/frontpage.html', title=title)
 
 @rum.route('/about/')
-def about(title='About Us'):
+def about_index(title='About Us'):
     return render_template('site/about.html', title=title)
 
 @rum.route('/info/')
-def info(title='Info Page'):
+def info_index(title='Info Page'):
     return render_template('site/info.html', title=title)
 
 @rum.route('/<path:path>')
-def catch_all(path, title='404 Error! '+settings.PROJECT_TITLE):
+def catch_all(path, title='404 Error! '+configs.PROJECT_TITLE):
     return render_template('site/404.html', title=title, path=path)
 
 

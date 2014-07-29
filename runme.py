@@ -1,5 +1,5 @@
+# Dommert Flask-Rum Loader
 from flask import Flask, render_template
-from flask import Blueprint
 from flask_rum.main import rum
 
 app = Flask(__name__)
