@@ -3,8 +3,16 @@ from flask import Flask, render_template
 from flask_rum.main import rum
 
 app = Flask(__name__)
-app.config.from_object('configs')
 app.register_blueprint(rum)
+app.config.update(
+    DEBUG=True,
+    #SECRET_KEY='...',
+    THEME_FOLDER='rum/banana/',
+    TEMPLATE_DEFAULTS = {
+    'nav': 'site/blocks/rum_nav.html',
+    'footer': 'site/blocks/rum_footer.html'
+    }
+)
 
 @app.route('/fuckyou')
 def fuckyou(title='fuck'):
