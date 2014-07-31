@@ -1,6 +1,6 @@
 # Flask-Rum [Version 0.1.1]
 
-THEME_FOLDER = 'banana/'
+THEME_FOLDER = 'rum/coconut/'
 PROJECT_TITLE = '[Flask-Rum]'
 ADMINS = [
     ('Admin', 'Admin@Domain.com')

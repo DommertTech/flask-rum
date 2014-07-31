@@ -2,17 +2,17 @@
  Theme: BANANA (by David@Allstruck.com)
 One Column Template #}
 
-{% extends 'rum/main.html' %}
+{% extends 'rum/rum/main.html' %}
 
 {% block rum_head %}
-    <link rel="stylesheet" href="{{ url_for('static', filename='banana/style.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('rum.static', filename='banana/style.css') }}" />
 {% endblock rum_head %}
 
 {% block header %}
 <div id="rum_header">
  {% block rum_header %}
    {% block rum_nav %} {% endblock %}
-   {% block hero %}{% include 'banana/hero.html' %} {% endblock %}
+   {% block hero %}{% include 'rum/banana/hero.html' %} {% endblock %}
  {% endblock rum_header %}
 </div>
 {% endblock header %}
