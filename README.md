@@ -31,10 +31,12 @@ Have Python and VirtualEnv installed before this:
 #### File Structure (need to update for v0.1.2)
 * *Main.py* (Main Blueprint)
 * *Rum_Config.py* (Rum Configurations)
-* *templates/site* (Route your site Pages and content)
-    * Blocks/ (for custom site blocks  Defaults: rum_nav, rum_footer)
+
 * *rum_templates/*
-    * *rum/core/* (main layouts to expand upon)
+    * *site/* (Route your site Pages and content)
+        * Blocks/ (for custom site blocks)  
+            * Defaults: rum_nav, rum_footer
+    * * *rum/core/* (main layouts to expand upon)
         * Base.html (the base layout that everything is built upon)
         * Main.html (expands off the base, and is the main setup for body and things)
         * OneCol.html (expands off Main, setup with main content area)
