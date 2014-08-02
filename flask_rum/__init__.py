@@ -1,4 +1,4 @@
-# Dommert's Flask-Rum [Version 0.1.1]
+# Dommert's Flask-Rum [Version 0.1.2]
 # __init__.py
 from flask import Flask
 from main import app

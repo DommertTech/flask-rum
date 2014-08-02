@@ -1,16 +1,17 @@
-Flask-Rum [Version 0.1.1]
+Flask-Rum [Version 0.1.2]
 ==============
 *Author:* Dommert [Dommert@Gmail.com]
-*Published:* July 2014
-*Updated:* July 2014
+*Published:* July 4, 2014
+*Updated:* August 1, 2014
 
 
 ## **Fill your Flask app with Rum!!**
 
-Flask-Rum is a Python Flask framework using Zurb's Foundation, JavaScript, and JQuery. It makes a great starting point for any Flask project. Flask-Rum comes with base templates & themes with custom blocks. 
+Flask-Rum is a Python Flask Blueprint using Zurb's Foundation, JavaScript, and JQuery. It makes a great starting point, or extension, for any Flask project. Flask-Rum comes with base layouts, blocks, and themes. 
 
 #### Notes
-I've started building on the Git-Wiki. Documentation & Website links will come soon.
+Version 0.1.2: Turn Flask-Rum into a blueprint. Now you can add it into any project :)  
+Version 0.1.1: I've started building on the Git-Wiki. Documentation & Website links will come soon.
 
 ### Getting Started
 Have Python and VirtualEnv installed before this:
@@ -27,7 +28,7 @@ Have Python and VirtualEnv installed before this:
 
 ## Documentation
 
-#### File Structure
+#### File Structure (need to update for v0.1.2)
 * *Main.py* (of course the main file to run)
 * *Configs.py* (your site configs and setups)
 * *templates/site* (this is where you route your site pages and content)
