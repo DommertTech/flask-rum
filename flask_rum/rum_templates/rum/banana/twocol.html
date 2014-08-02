@@ -2,10 +2,10 @@
  Theme: BANANA (by David@Allstruck.com)
 Two Column Template #}
 
-{% extends 'rum/main.html' %}
+{% extends 'rum/core/main.html' %}
 
 {% block rum_head %}
-    <link rel="stylesheet" href="{{ url_for('static', filename='banana/style.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('rum.static', filename='banana/style.css') }}" />
 {% endblock rum_head %}
 
 {% block header %}

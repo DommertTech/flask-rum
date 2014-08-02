@@ -1,0 +1,12 @@
+{# Flask-Rum [Version 0.1.1]
+   Head for Rum #}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+{% block css %} 
+<link rel="stylesheet" href="{{ url_for('rum.static', filename='rum/css/foundation.css') }}" />
+{% endblock %}
+
+<script src="{{ url_for('rum.static', filename='js/vendor/modernizr.js') }}"></script>
+<script src="{{ url_for('rum.static', filename='js/jquery/jquery.js') }}"></script>
+<script src="{{ url_for('rum.static', filename='js/foundation/foundation.min.js') }}"></script>
