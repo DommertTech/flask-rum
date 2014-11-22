@@ -13,6 +13,8 @@ Flask-Rum is a Flask Blueprint using Zurb's Foundation, JavaScript, and JQuery. 
 Version 0.1.2: Turned Flask-Rum into a blueprint. Now you can add it into any project :)  
 Version 0.1.1: I've started building on the Git-Wiki. Documentation & Website links will come soon.
 
+Version 0.1.2: Working on making it modular and submitting it to PyPi
+
 ### Getting Started
 Have Python and VirtualEnv installed before this:
 
