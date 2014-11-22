@@ -30,6 +30,20 @@ Have Python and VirtualEnv installed before this:
 
 ## Documentation
 
+### Basic
+Every THEME has LAYOUT pages. In each layout is divided into SECTIONS. Each section can have BLOCKS.
+
+Every *theme* must come with these *layouts*:
+    * frontpage
+    * onecol
+    * twocol
+    
+Each *layout* has these default *sections*:
+    * Header
+    * Nav
+    * Content
+    * Footer
+
 #### File Structure (need to update for v0.1.2)
 * *Main.py* (Main Blueprint)
 * *Rum_Config.py* (Rum Configurations)
@@ -54,14 +68,15 @@ Have Python and VirtualEnv installed before this:
             * PlaceHolder.JS
             * FastClick.JS
     * *rum/css* (base rum css files)
-    * *[THEME_FOLDER]* (theme CSS & Files)
+    
 
 
-#### Rum Blocks
+#### Rum Sections & Blocks
 These are the main blocks and sections that make up Rum Templates. If you need help with Template look at Jinja2 Documentation.
 Each template requires Rum_Nav and Rum_Content
 
 *italic* = html
+
 * *[head]*
 * Title
 * Rum_Head : Where you can add any extra CSS, JS, and Meta Data
