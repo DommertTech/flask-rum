@@ -9,4 +9,6 @@ Updates
     * Added Banana Theme
     * Fixed Bugs
     * Started on Wiki
+* Version 0.1.2
+	* 
  

@@ -17,14 +17,14 @@ def frontpage(title='Home '+rum_config.PROJECT_TITLE):
     return render_template('site/frontpage.html', title=title)
 
 @rum.route('/about/')
-def about(title='About Us'):
+def about(title='About Us'+rum_config.PROJECT_TITLE):
     return render_template('site/about.html', title=title)
 
 @rum.route('/info/')
-def info(title='Info Page'):
+def info(title='Info Page'+rum_config.PROJECT_TITLE):
     return render_template('site/info.html', title=title)
 
-@rum.route('/<path:path>')
+@rum.route('/<path:path>'+rum_config.PROJECT_TITLE)
 def catch_all(path, title='404 Error! '+rum_config.PROJECT_TITLE):
     return render_template('site/404.html', title=title, path=path)
 
