@@ -44,6 +44,29 @@ Each *layout* has these default *sections*
 * Content
 * Footer
 
+
+#### Rum Sections & Blocks
+These are the main blocks and sections that make up Rum Templates. If you need help with Template look at Jinja2 Documentation.
+Each template requires Rum_Nav and Rum_Content
+
+*italic* = html
+
+* *[head]*
+* Title
+* Rum_Head : Where you can add any extra CSS, JS, and Meta Data
+    * *[body]*
+    * *[header]*
+* Rum_Header : The Top Section of Page
+* Rum_Nav : Main Navigation Section
+    * *[section id='middle']*
+* Rum_Middle: Middle Section of Page
+* Rum_Content : Main content section
+* Rum_Sidebar : Sidebar for two/three columns
+    * *[footer]*
+* Rum_Footer : Main footer section
+
+
+
 #### File Structure (need to update for v0.1.2)
 * *Main.py* (Main Blueprint)
 * *Rum_Config.py* (Rum Configurations)
@@ -69,29 +92,6 @@ Each *layout* has these default *sections*
             * FastClick.JS
     * *rum/css* (base rum css files)
     
-
-
-#### Rum Sections & Blocks
-These are the main blocks and sections that make up Rum Templates. If you need help with Template look at Jinja2 Documentation.
-Each template requires Rum_Nav and Rum_Content
-
-*italic* = html
-
-* *[head]*
-* Title
-* Rum_Head : Where you can add any extra CSS, JS, and Meta Data
-    * *[body]*
-    * *[header]*
-* Rum_Header : The Top Section of Page
-* Rum_Nav : Main Navigation Section
-    * *[section id='middle']*
-* Rum_Middle: Middle Section of Page
-* Rum_Content : Main content section
-* Rum_Sidebar : Sidebar for two/three columns
-    * *[footer]*
-* Rum_Footer : Main footer section
-
-
 
 
 
