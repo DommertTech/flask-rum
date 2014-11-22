@@ -33,16 +33,16 @@ Have Python and VirtualEnv installed before this:
 ### Basic
 Every THEME has LAYOUT pages. In each layout is divided into SECTIONS. Each section can have BLOCKS.
 
-Every *theme* must come with these *layouts*:
-    * frontpage
-    * onecol
-    * twocol
+Every *theme* must come with these *layouts*
+* frontpage
+* onecol
+* twocol
     
-Each *layout* has these default *sections*:
-    * Header
-    * Nav
-    * Content
-    * Footer
+Each *layout* has these default *sections*
+* Header
+* Nav
+* Content
+* Footer
 
 #### File Structure (need to update for v0.1.2)
 * *Main.py* (Main Blueprint)
