@@ -2,36 +2,26 @@ Flask-Rum [Version 0.1.2]
 ==============
 *Author:* Dommert [Dommert@Gmail.com]
 *Published:* July 4, 2014
-*Updated:* August 1, 2014
+*Updated:* December 7, 2014
 
 
 ## **Fill your Flask app with Rum!!**
 
-Flask-Rum is a Flask Blueprint using Zurb's Foundation, JavaScript, and JQuery. It makes a great starting point, or extension, for any project or website. Flask-Rum comes with base layouts, blocks, sections and themes. 
+Flask-Rum is a Flask Blueprint using Zurb's Foundation, JavaScript, and JQuery. It makes a great starting point, or extension, for any project or website. Flask-Rum comes with base website layouts, sections, blocks, and themes. You can use the base Themes out the box, or create your own. Flask Rum's default layouts are one column, two column with side bar floating on either left or right side, and three column layout. 
 
 #### Notes
-Version 0.1.2: Turned Flask-Rum into a blueprint. Now you can add it into any project :)  
+Version 0.1.2: Working on making it modular and submitting it to PyPi. 
+Version 0.1.2: Also turned Flask-Rum into a blueprint. Now you can add it into any project :)  
 Version 0.1.1: I've started building on the Git-Wiki. Documentation & Website links will come soon.
 
-Version 0.1.2: Working on making it modular and submitting it to PyPi
-
-### Getting Started
-Have Python and VirtualEnv installed before this:
-
-    git clone git@github.com:DommertTech/flask-rum.git
-    cd flask-rum
-    virtualenv ENV
-    source ENV/bin/activate
-    pip install -r requirements.txt
-    python flask-rum/main.py
-    open http://0.0.0.0:5000/
-    or http://localhost:5000/
-
-
 ## Documentation
+Working on writing more documentation. I have started the Github wiki for the project. 
 
-### Basic
-Every THEME has LAYOUT pages. In each layout is divided into SECTIONS. Each section can have BLOCKS.
+Zurb Foundation can be found here http://foundation.zurb.com/
+
+
+### Basics!
+**Every THEME has LAYOUT pages. In each Layout is divided into SECTIONS. Each Section can have BLOCKS.**
 
 Every *theme* must come with these *layouts*
 * frontpage
@@ -49,27 +39,27 @@ Each *layout* has these default *sections*
 These are the main blocks and sections that make up Rum Templates. If you need help with Template look at Jinja2 Documentation.
 Each template requires Rum_Nav and Rum_Content
 
-*italic* = html
+*italic* = html tags
 
-* *[head]*
+* *[Head]*
     * Title
     * Rum_Head : Where you can add any extra CSS, JS, and Meta Data
-* *[body]*
-* *[header]*
+* *[Body]*
+* *[Header]*
     * Rum_Header : The Top Section of Page
     * Rum_Nav : Main Navigation Section
 * *[section id='middle']*
     * Rum_Middle: Middle Section of Page
     * Rum_Content : Main content section
     * Rum_Sidebar : Sidebar for two/three columns
-* *[footer]*
+* *[Footer]*
     * Rum_Footer : Main footer section
 
 
 
 #### File Structure (need to update for v0.1.2)
 * *Main.py* (Main Blueprint)
-* *Rum_Config.py* (Rum Configurations)
+* *Rum_Config.py* (Default Rum Configurations)
 * *rum_templates/*
     * *site/* (Route your site Pages and content)
         * Blocks/ (for custom site blocks)  
@@ -93,7 +83,17 @@ Each template requires Rum_Nav and Rum_Content
     * *rum/css* (base rum css files)
     
 
+### Getting Started
+Have Python and VirtualEnv installed before this:
 
+    git clone git@github.com:DommertTech/flask-rum.git
+    cd flask-rum
+    virtualenv ENV
+    source ENV/bin/activate
+    pip install -r requirements.txt
+    python flask-rum/main.py
+    open http://0.0.0.0:5000/
+    or http://localhost:5000/
 
 
 
