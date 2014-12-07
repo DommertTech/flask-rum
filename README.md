@@ -1,6 +1,8 @@
 Flask-Rum [Version 0.1.2]
 ==============
-*Author:* Dommert [Dommert@Gmail.com]
+*Author:* Dommert [Dommert@Gmail.com] 
+Facebook: http://facebook.com/dommertbot
+Twitter: http://twitter.com/dommert
 *Published:* July 4, 2014
 *Updated:* December 7, 2014
 
@@ -21,9 +23,9 @@ Zurb Foundation can be found here http://foundation.zurb.com/
 
 
 ### Basics!
-**Every THEME has LAYOUT pages. In each Layout is divided into SECTIONS. Each Section can have BLOCKS.**
+**Every THEME has LAYOUT pages. Each Layout is divided into SECTIONS. Each Section can have BLOCKS.**
 
-Every *theme* must come with these *layouts*
+Every *theme* must come with these *layouts*! 
 * frontpage
 * onecol
 * twocol
@@ -36,9 +38,10 @@ Each *layout* has these default *sections*
 
 
 #### Rum Sections & Blocks
-These are the main blocks and sections that make up Rum Templates. If you need help with Template look at Jinja2 Documentation.
-Each template requires Rum_Nav and Rum_Content
+These are the main blocks and sections that make up Rum Templates. If you need help with Template look at the Jinja2 Documentation.
+Each template requires Rum_Nav & Rum_Content
 
+Sections & Blocks
 *italic* = html tags
 
 * *[Head]*
