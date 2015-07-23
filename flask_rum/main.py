@@ -3,7 +3,7 @@
 from flask import Flask
 from flask import render_template
 from flask import Blueprint
-from flask_rum import rum_config
+import rum_config
 
 
 app = Flask(__name__)
@@ -12,19 +12,20 @@ app.config.from_object(rum_config)
 rum = Blueprint('rum', __name__, template_folder='rum_templates', static_folder='rum_static')
 app.register_blueprint(rum)
 
-@rum.route('/')
-def frontpage(title='Home '+rum_config.PROJECT_TITLE):
+
+@app.route('/')
+def frontpage(title ='Home'+rum_config.PROJECT_TITLE):
     return render_template('site/frontpage.html', title=title)
 
-@rum.route('/about/')
+@app.route('/about/')
 def about(title='About Us'+rum_config.PROJECT_TITLE):
     return render_template('site/about.html', title=title)
 
-@rum.route('/info/')
+@app.route('/info/')
 def info(title='Info Page'+rum_config.PROJECT_TITLE):
     return render_template('site/info.html', title=title)
 
-@rum.route('/<path:path>'+rum_config.PROJECT_TITLE)
+@app.route('/<path:path>')
 def catch_all(path, title='404 Error! '+rum_config.PROJECT_TITLE):
     return render_template('site/404.html', title=title, path=path)
 

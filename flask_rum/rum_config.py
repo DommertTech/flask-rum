@@ -1,9 +1,9 @@
 # Flask-Rum [Version 0.1.2]
 # Rum_Config.py
 
-HOST='localhost'
+HOST='127.0.0.1'
 DEBUG=True
-PORT=5001
+PORT=5000
 #SECRET_KEY='...'
 #SESSION_COOKIE_DOMAIN
 #SERVER_NAME

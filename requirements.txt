@@ -1,6 +1,5 @@
 Flask==0.8
-Jinja2==2.6
+Jinja2==2.73
 MarkupSafe==0.15
 Werkzeug==0.8.1
-virtualenv==1.11.4
 wsgiref==0.1.2
