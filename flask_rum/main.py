@@ -9,9 +9,8 @@ import rum_config
 app = Flask(__name__)
 app.config.from_object(rum_config)
 
-rum = Blueprint('rum', __name__, template_folder='rum_templates', static_folder='rum_static')
+rum = Blueprint('rum', __name__, template_folder='templates', static_folder='static')
 app.register_blueprint(rum)
-
 
 @app.route('/')
 def frontpage(title ='Home'+rum_config.PROJECT_TITLE):

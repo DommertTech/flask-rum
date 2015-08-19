@@ -1,19 +1,14 @@
 {# Flask-Rum [Version 0.1.2]
- Theme: BANANA (by David@Allstruck.com)
-Two Column Template #}
+  Theme: Coconut - Two Column Template  #}
 
 {% extends 'rum/core/main.html' %}
 
-{% block rum_head %}
-    <link rel="stylesheet" href="{{ url_for('rum.static', filename='banana/style.css') }}" />
-{% endblock rum_head %}
-
 {% block header %}
-<div id="rum_header">
- {% block rum_header %}
-   {% block rum_nav %} {% endblock %}
-   {% block hero %}{% include 'rum/banana/hero.html' %} {% endblock %}
- {% endblock rum_header %}
+<div class="row" id="rum_header">
+    {% block rum_header %}
+        {% block rum_nav %}{% endblock %}
+       {% block hero %}{% include 'rum/themes/coconut/hero.html' %} {% endblock %}
+    {% endblock rum_header %}
 </div>
 {% endblock header %}
 
@@ -31,8 +26,8 @@ Two Column Template #}
 {% endblock middle %}
 
 {% block footer %}
-<div class="row">
-    <div class="medium-12 columns"> {% block rum_footer %}{% endblock %} </div>
+<div class="row" id="footer">
+   <div class="medium-12 columns" id="rum_footer"> {% block rum_footer %}{% endblock %} </div>
 </div>
 {% endblock footer %}
 
