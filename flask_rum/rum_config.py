@@ -11,9 +11,11 @@ DEBUG=True
 #SESSION_COOKIE_DOMAIN
 #SERVER_NAME
 
-THEME = 'coconut'
-THEME_FOLDER = 'rum/themes/'+ THEME +'/'
 PROJECT_TITLE = '[Flask-Rum]'
+# THEMES
+THEME = 'banana' # DEFAULTS: coconut, banana
+THEME_FOLDER = 'rum/themes/'+ THEME +'/'
+
 ADMINS = [
 ('Admin', 'Admin@Domain.com')
 ]
