@@ -1,4 +1,4 @@
-# Flask-Rum [Version 0.1.2]
+# Dommert's Flask-Rum [Version 0.1.0]
 # Rum_Config.py
 #---------------------------------
 

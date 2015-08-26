@@ -12,9 +12,10 @@ Twitter: http://twitter.com/dommert
 Flask-Rum is a Flask Blueprint using Zurb's Foundation, JavaScript, and JQuery. It makes a great starting point, or extension, for any project or website. Flask-Rum comes with base website layouts, sections, blocks, and themes. You can use the base Themes out the box, or create your own. Flask Rum's default layouts are one column, two column with side bar floating on either left or right side, and three column layout. 
 
 #### Notes
-Version 0.1.2: Working on making it modular and submitting it to PyPi. 
-Version 0.1.2: Also turned Flask-Rum into a blueprint. Now you can add it into any project :)  
-Version 0.1.1: I've started building on the Git-Wiki. Documentation & Website links will come soon.
+Version 0.1.0: Main Working app, getting ready for PyPi
+Version 0.0.3: Working on making it modular and submitting it to PyPi. 
+Version 0.0.2: Also turned Flask-Rum into a blueprint. Now you can add it into any project :)  
+Version 0.0.1: I've started building on the Git-Wiki. Documentation & Website links will come soon.
 
 ## Documentation
 Working on writing more documentation. I have started the Github wiki for the project. 
