@@ -61,10 +61,10 @@ Sections & Blocks
 
 
 
-#### File Structure (need to update for v0.1.2)
+#### File Structure (need to update for v0.1.0)
 * *Main.py* (Main Blueprint)
 * *Rum_Config.py* (Default Rum Configurations)
-* *rum_templates/*
+* *templates/*
     * *site/* (Route your site Pages and content)
         * Blocks/ (for custom site blocks)  
             * Defaults: rum_nav, rum_footer
@@ -74,10 +74,10 @@ Sections & Blocks
         * OneCol.html (expands off Main, setup with main content area)
         * TwoCol.html (expands off Main, has content area and sidebar)
         * Frontpage.html (expands off Main, your frontpage layout design)
-    * *rum/coconut/* (Simple Coconut Flavor Theme to add to your Rum)
-    * *rum/banana/* (Yummy Banana Theme for Rum)
+    * *rum/themes/coconut/* (Simple Coconut Flavor Theme to add to your Rum)
+    * *rum/themes/banana/* (Yummy Banana Theme for Rum)
 * *rum_static/* (your rum static files)
-    * js/ (Javascript libraries)
+    * rum/js/ (Javascript libraries)
         * JQuery/ (Jquery Library)
         * Foundation/ (Foundation Library)
         * Vender/
