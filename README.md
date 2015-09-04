@@ -1,10 +1,10 @@
-Flask-Rum [Version 0.1.2]
+Flask-Rum [Version 0.1.0-beta]
 ==============
 *Author:* Dommert [Dommert@Gmail.com] 
 Facebook: http://facebook.com/dommertbot
 Twitter: http://twitter.com/dommert
 *Published:* July 4, 2014
-*Updated:* December 7, 2014
+*Updated:* 9/3/2015
 
 
 ## **Fill your Flask app with Rum!!**
