@@ -1,0 +1,27 @@
+{# Flask-Rum [Version 0.1.2] #}
+
+{% extends config.THEME_FOLDER+'twocol.html' %}
+
+{% block rum_nav %}
+   {% include config.TEMPLATE_DEFAULTS['nav'] %}
+{% endblock %}
+
+{% block rum_content %}
+<div class="medium-12 columns">
+  <BR>
+  <h3 style="text-align:center;">Information</h3>
+  <P> Testing.......................  </P>
+</div>
+{% endblock rum_content %}
+
+{% block rum_sidebar %}
+<div class="medium-12 columns">
+  <ul class="side-nav">
+    <li class="active"><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Link 3</a></li>
+    <li><a href="#">Link 4</a></li>
+  </ul>
+</div>
+{% endblock rum_sidebar %}

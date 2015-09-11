@@ -1,13 +1,12 @@
 # Dommert's Flask-Rum [Version 0.1.0]
 # Fill your Flask with Rum!
-from flask import Flask, render_template, Blueprint, abort
+from flask import Flask, render_template, Blueprint
 from flask_rum import rum_config
-from jinja2 import TemplateNotFound
 
 app = Flask(__name__)
 app.config.from_object(rum_config)
 
-rum = Blueprint('rum', __name__, static_folder='static', template_folder='templates')
+rum = Blueprint('rum', __name__, static_folder='static', template_folder='templates', static_url_path='/static/')
 #app.register_blueprint(rum)
 
 @rum.route('/')
@@ -23,6 +22,7 @@ def info(title='Info Page'+rum_config.PROJECT_TITLE):
     return render_template('site/info.html', title=title)
 
 @rum.route('/<path:path>')
+
 def catch_all(path, title='404 Error! '+rum_config.PROJECT_TITLE):
     return render_template('site/404.html', title=title, path=path)
 
