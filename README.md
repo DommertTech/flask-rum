@@ -1,10 +1,10 @@
-Flask-Rum [Version 0.1.2]
+Flask-Rum [Version 0.1.0-beta]
 ==============
 *Author:* Dommert [Dommert@Gmail.com] 
 Facebook: http://facebook.com/dommertbot
 Twitter: http://twitter.com/dommert
 *Published:* July 4, 2014
-*Updated:* December 7, 2014
+*Updated:* 9/3/2015
 
 
 ## **Fill your Flask app with Rum!!**
@@ -12,10 +12,14 @@ Twitter: http://twitter.com/dommert
 Flask-Rum is a Flask Blueprint using Zurb's Foundation, JavaScript, and JQuery. It makes a great starting point, or extension, for any project or website. Flask-Rum comes with base website layouts, sections, blocks, and themes. You can use the base Themes out the box, or create your own. Flask Rum's default layouts are one column, two column with side bar floating on either left or right side, and three column layout. 
 
 #### Notes
-Version 0.1.0: Main Working app, getting ready for PyPi
-Version 0.0.3: Working on making it modular and submitting it to PyPi. 
-Version 0.0.2: Also turned Flask-Rum into a blueprint. Now you can add it into any project :)  
-Version 0.0.1: I've started building on the Git-Wiki. Documentation & Website links will come soon.
+* Version 0.1.0-beta: Main Working app, getting ready for PyPi. Almost official
+
+* Version 0.0.3: Working on making it modular fixing layouts
+
+* Version 0.0.2: Also turned Flask-Rum into a blueprint. Now you can add it into any project. :)  
+
+* Version 0.0.1: I've started building on the Git-Wiki. Documentation & Website links will come soon.
+
 
 ## Documentation
 Working on writing more documentation. I have started the Github wiki for the project. 
@@ -27,9 +31,9 @@ Zurb Foundation can be found here http://foundation.zurb.com/
 **Every THEME has LAYOUT pages. Each Layout is divided into SECTIONS. Each Section can have BLOCKS.**
 
 Every *theme* must come with these *layouts*! 
-* frontpage
-* onecol
-* twocol
+* Frontpage
+* Onecol
+* Twocol
     
 Each *layout* has these default *sections*
 * Header
@@ -76,7 +80,7 @@ Sections & Blocks
         * Frontpage.html (expands off Main, your frontpage layout design)
     * *rum/themes/coconut/* (Simple Coconut Flavor Theme to add to your Rum)
     * *rum/themes/banana/* (Yummy Banana Theme for Rum)
-* *rum_static/* (your rum static files)
+* *static/* (your rum static files)
     * rum/js/ (Javascript libraries)
         * JQuery/ (Jquery Library)
         * Foundation/ (Foundation Library)
@@ -85,7 +89,7 @@ Sections & Blocks
             * PlaceHolder.JS
             * FastClick.JS
     * *rum/css* (base rum css files)
-    
+    * run/core/
 
 ### Getting Started
 Have Python and VirtualEnv installed before this:
