@@ -13,7 +13,7 @@ DEBUG=True
 
 PROJECT_TITLE = '[Flask-Rum]'
 # THEMES
-THEME = 'banana' # DEFAULTS: coconut, banana
+THEME = 'coconut' # DEFAULTS: coconut, banana
 THEME_FOLDER = 'rum/themes/'+ THEME +'/'
 
 ADMINS = [
